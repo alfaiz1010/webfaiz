@@ -1,0 +1,71 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table cell styling */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="date"],
+input[type="password"],
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Submit button hover effect */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}
